@@ -1,0 +1,578 @@
+INFO:gensim.models.ldamodel:using symmetric alpha at 0.1
+INFO:gensim.models.ldamodel:using serial LDA version on this node
+WARNING:gensim.models.ldamodel:input corpus stream has no len(); counting documents
+INFO:gensim.models.ldamodel:running batch LDA training, 10 topics, 10 passes over the supplied corpus of 28415 documents, updating model once every 28415 documents, evaluating perplexity every 20000 documents, iterating 50x with a convergence threshold of 0.001000
+INFO:gensim.models.ldamodel:PROGRESS: pass 0, at document #2000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:767/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 0, at document #4000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:721/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 0, at document #6000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:757/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 0, at document #8000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:760/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 0, at document #10000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:780/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 0, at document #12000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:755/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 0, at document #14000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:753/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 0, at document #16000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:802/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 0, at document #18000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:762/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-11.108 per-word bound, 2206.6 perplexity estimate based on a held-out corpus of 2000 documents with 78911 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 0, at document #20000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:766/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 0, at document #22000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:773/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 0, at document #24000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:757/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 0, at document #26000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:780/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 0, at document #28000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:792/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-11.144 per-word bound, 2263.1 perplexity estimate based on a held-out corpus of 415 documents with 14996 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 0, at document #28415/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 415 documents
+DEBUG:gensim.models.ldamodel:150/415 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #3 (0.100): 0.007*economi + 0.006*market + 0.006*state + 0.006*product + 0.005*cut + 0.005*opec + 0.005*unit + 0.005*industri + 0.005*produc + 0.005*trade
+INFO:gensim.models.ldamodel:topic #4 (0.100): 0.011*energi + 0.007*state + 0.006*market + 0.006*govern + 0.006*bank + 0.005*report + 0.005*economi + 0.004*econom + 0.004*nation + 0.004*intern
+INFO:gensim.models.ldamodel:topic #0 (0.100): 0.007*rate + 0.007*market + 0.007*energi + 0.006*opec + 0.006*american + 0.006*economi + 0.005*produc + 0.005*bank + 0.005*econom + 0.004*cut
+INFO:gensim.models.ldamodel:topic #2 (0.100): 0.009*crude + 0.008*market + 0.008*compani + 0.005*economi + 0.005*stock + 0.005*barrel + 0.005*econom + 0.005*opec + 0.004*time + 0.004*increas
+INFO:gensim.models.ldamodel:topic #8 (0.100): 0.009*energi + 0.006*increas + 0.005*econom + 0.005*world + 0.004*gasolin + 0.004*report + 0.004*crude + 0.004*bank + 0.004*consum + 0.004*opec
+INFO:gensim.models.ldamodel:topic diff=5.874998, rho=1.000000
+INFO:gensim.models.ldamodel:PROGRESS: pass 1, at document #2000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1220/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 1, at document #4000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1229/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 1, at document #6000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1178/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 1, at document #8000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1216/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 1, at document #10000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1211/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 1, at document #12000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1205/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 1, at document #14000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1192/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 1, at document #16000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1191/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 1, at document #18000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1207/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-8.132 per-word bound, 280.6 perplexity estimate based on a held-out corpus of 2000 documents with 78284 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 1, at document #20000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1193/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 1, at document #22000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1199/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 1, at document #24000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1222/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 1, at document #26000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1174/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 1, at document #28000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1185/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-8.162 per-word bound, 286.4 perplexity estimate based on a held-out corpus of 415 documents with 15306 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 1, at document #28415/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 415 documents
+DEBUG:gensim.models.ldamodel:270/415 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #0 (0.100): 0.007*opec + 0.007*rate + 0.007*energi + 0.006*market + 0.006*economi + 0.006*american + 0.006*bank + 0.005*produc + 0.005*econom + 0.005*cut
+INFO:gensim.models.ldamodel:topic #2 (0.100): 0.012*crude + 0.009*market + 0.008*compani + 0.007*barrel + 0.005*economi + 0.005*stock + 0.005*opec + 0.005*time + 0.005*suppli + 0.004*econom
+INFO:gensim.models.ldamodel:topic #9 (0.100): 0.009*market + 0.007*dollar + 0.007*bank + 0.007*state + 0.006*world + 0.005*increas + 0.005*presid + 0.005*unit + 0.005*russia + 0.005*gold
+INFO:gensim.models.ldamodel:topic #6 (0.100): 0.010*rate + 0.009*report + 0.007*economi + 0.007*market + 0.006*quarter + 0.006*cut + 0.005*bank + 0.005*econom + 0.005*state + 0.005*expect
+INFO:gensim.models.ldamodel:topic #3 (0.100): 0.007*economi + 0.007*opec + 0.006*product + 0.006*state + 0.006*market + 0.006*cut + 0.005*unit + 0.005*produc + 0.005*quarter + 0.005*industri
+INFO:gensim.models.ldamodel:topic diff=0.245899, rho=0.250000
+INFO:gensim.models.ldamodel:PROGRESS: pass 2, at document #2000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1320/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 2, at document #4000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1300/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 2, at document #6000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1277/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 2, at document #8000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1295/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 2, at document #10000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1309/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 2, at document #12000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1329/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 2, at document #14000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1328/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 2, at document #16000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1281/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 2, at document #18000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1341/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-8.054 per-word bound, 265.7 perplexity estimate based on a held-out corpus of 2000 documents with 77826 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 2, at document #20000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1292/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 2, at document #22000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1304/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 2, at document #24000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1322/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 2, at document #26000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1297/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 2, at document #28000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1284/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.992 per-word bound, 254.6 perplexity estimate based on a held-out corpus of 415 documents with 15033 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 2, at document #28415/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 415 documents
+DEBUG:gensim.models.ldamodel:262/415 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #3 (0.100): 0.009*opec + 0.007*product + 0.007*cut + 0.007*economi + 0.006*state + 0.006*market + 0.005*produc + 0.005*meet + 0.005*unit + 0.004*export
+INFO:gensim.models.ldamodel:topic #7 (0.100): 0.012*stock + 0.011*market + 0.009*rate + 0.007*trade + 0.006*industri + 0.006*bond + 0.006*dow + 0.006*interest + 0.006*point + 0.006*index
+INFO:gensim.models.ldamodel:topic #2 (0.100): 0.015*crude + 0.011*market + 0.010*barrel + 0.009*compani + 0.006*cent + 0.006*suppli + 0.005*economi + 0.005*opec + 0.005*stock + 0.005*time
+INFO:gensim.models.ldamodel:topic #0 (0.100): 0.007*opec + 0.007*rate + 0.007*energi + 0.006*bank + 0.006*market + 0.006*economi + 0.006*produc + 0.006*american + 0.005*cut + 0.005*econom
+INFO:gensim.models.ldamodel:topic #1 (0.100): 0.007*world + 0.005*econom + 0.005*tax + 0.005*presid + 0.005*iran + 0.005*inflat + 0.004*economi + 0.004*polici + 0.004*state + 0.004*increas
+INFO:gensim.models.ldamodel:topic diff=0.242522, rho=0.242536
+INFO:gensim.models.ldamodel:PROGRESS: pass 3, at document #2000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1398/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 3, at document #4000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1372/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 3, at document #6000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1360/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 3, at document #8000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1372/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 3, at document #10000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1363/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 3, at document #12000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1415/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 3, at document #14000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1410/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 3, at document #16000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1406/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 3, at document #18000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1399/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-8.018 per-word bound, 259.3 perplexity estimate based on a held-out corpus of 2000 documents with 71550 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 3, at document #20000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1421/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 3, at document #22000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1384/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 3, at document #24000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1420/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 3, at document #26000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1417/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 3, at document #28000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1416/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-8.003 per-word bound, 256.6 perplexity estimate based on a held-out corpus of 415 documents with 15829 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 3, at document #28415/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 415 documents
+DEBUG:gensim.models.ldamodel:277/415 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #1 (0.100): 0.007*world + 0.006*econom + 0.005*tax + 0.005*presid + 0.005*iran + 0.005*polici + 0.004*inflat + 0.004*economi + 0.004*state + 0.004*increas
+INFO:gensim.models.ldamodel:topic #2 (0.100): 0.018*crude + 0.013*barrel + 0.012*market + 0.009*compani + 0.007*cent + 0.006*suppli + 0.006*futur + 0.006*opec + 0.005*economi + 0.005*gasolin
+INFO:gensim.models.ldamodel:topic #9 (0.100): 0.009*dollar + 0.008*market + 0.007*bank + 0.007*state + 0.007*gold + 0.006*russia + 0.006*presid + 0.006*world + 0.006*unit + 0.005*currenc
+INFO:gensim.models.ldamodel:topic #5 (0.100): 0.013*trade + 0.009*export + 0.009*ga + 0.007*report + 0.006*deficit + 0.006*import + 0.006*economi + 0.006*state + 0.005*growth + 0.005*market
+INFO:gensim.models.ldamodel:topic #0 (0.100): 0.007*opec + 0.007*rate + 0.007*bank + 0.007*energi + 0.006*market + 0.006*economi + 0.006*produc + 0.005*american + 0.005*econom + 0.005*cut
+INFO:gensim.models.ldamodel:topic diff=0.231954, rho=0.235702
+INFO:gensim.models.ldamodel:PROGRESS: pass 4, at document #2000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1466/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 4, at document #4000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1509/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 4, at document #6000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1494/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 4, at document #8000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1489/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 4, at document #10000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1500/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 4, at document #12000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1509/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 4, at document #14000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1467/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 4, at document #16000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1455/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 4, at document #18000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1444/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.991 per-word bound, 254.4 perplexity estimate based on a held-out corpus of 2000 documents with 76496 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 4, at document #20000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1502/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 4, at document #22000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1478/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 4, at document #24000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1463/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 4, at document #26000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1512/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 4, at document #28000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1453/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.976 per-word bound, 251.7 perplexity estimate based on a held-out corpus of 415 documents with 14143 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 4, at document #28415/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 415 documents
+DEBUG:gensim.models.ldamodel:302/415 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #5 (0.100): 0.014*trade + 0.010*export + 0.009*ga + 0.007*deficit + 0.007*import + 0.007*report + 0.006*economi + 0.006*growth + 0.006*state + 0.006*world
+INFO:gensim.models.ldamodel:topic #7 (0.100): 0.016*stock + 0.013*market + 0.011*rate + 0.008*dow + 0.008*bond + 0.007*trade + 0.007*index + 0.007*industri + 0.007*point + 0.007*investor
+INFO:gensim.models.ldamodel:topic #2 (0.100): 0.021*crude + 0.015*barrel + 0.014*market + 0.009*cent + 0.008*compani + 0.007*futur + 0.007*suppli + 0.006*gasolin + 0.006*newyork + 0.006*opec
+INFO:gensim.models.ldamodel:topic #0 (0.100): 0.008*bank + 0.008*rate + 0.007*energi + 0.007*opec + 0.006*economi + 0.006*market + 0.006*produc + 0.005*reserv + 0.005*american + 0.005*econom
+INFO:gensim.models.ldamodel:topic #6 (0.100): 0.011*report + 0.010*rate + 0.010*quarter + 0.009*economi + 0.008*profit + 0.006*cut + 0.006*earn + 0.006*bank + 0.006*compani + 0.006*market
+INFO:gensim.models.ldamodel:topic diff=0.218990, rho=0.229416
+INFO:gensim.models.ldamodel:PROGRESS: pass 5, at document #2000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1537/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 5, at document #4000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1563/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 5, at document #6000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1529/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 5, at document #8000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1557/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 5, at document #10000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1552/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 5, at document #12000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1573/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 5, at document #14000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1537/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 5, at document #16000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1535/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 5, at document #18000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1517/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.945 per-word bound, 246.4 perplexity estimate based on a held-out corpus of 2000 documents with 77682 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 5, at document #20000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1562/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 5, at document #22000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1531/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 5, at document #24000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1520/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 5, at document #26000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1541/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 5, at document #28000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1561/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.990 per-word bound, 254.2 perplexity estimate based on a held-out corpus of 415 documents with 15834 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 5, at document #28415/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 415 documents
+DEBUG:gensim.models.ldamodel:330/415 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #2 (0.100): 0.023*crude + 0.016*barrel + 0.015*market + 0.010*cent + 0.009*futur + 0.008*compani + 0.008*suppli + 0.007*gasolin + 0.007*newyork + 0.006*commod
+INFO:gensim.models.ldamodel:topic #6 (0.100): 0.011*report + 0.011*quarter + 0.010*rate + 0.009*economi + 0.008*profit + 0.006*earn + 0.006*compani + 0.006*growth + 0.006*cut + 0.006*expect
+INFO:gensim.models.ldamodel:topic #5 (0.100): 0.016*trade + 0.011*export + 0.010*ga + 0.008*deficit + 0.008*import + 0.007*report + 0.007*economi + 0.006*growth + 0.006*state + 0.006*world
+INFO:gensim.models.ldamodel:topic #4 (0.100): 0.012*energi + 0.008*state + 0.007*govern + 0.005*bank + 0.005*nation + 0.005*intern + 0.005*presid + 0.004*fund + 0.004*plan + 0.004*unit
+INFO:gensim.models.ldamodel:topic #9 (0.100): 0.011*dollar + 0.008*gold + 0.008*market + 0.008*bank + 0.007*state + 0.007*russia + 0.006*presid + 0.006*unit + 0.006*world + 0.006*currenc
+INFO:gensim.models.ldamodel:topic diff=0.204675, rho=0.223607
+INFO:gensim.models.ldamodel:PROGRESS: pass 6, at document #2000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1603/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 6, at document #4000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1602/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 6, at document #6000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1602/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 6, at document #8000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1588/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 6, at document #10000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1597/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 6, at document #12000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1601/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 6, at document #14000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1565/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 6, at document #16000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1592/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 6, at document #18000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1616/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.915 per-word bound, 241.3 perplexity estimate based on a held-out corpus of 2000 documents with 75094 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 6, at document #20000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1591/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 6, at document #22000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1598/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 6, at document #24000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1605/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 6, at document #26000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1566/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 6, at document #28000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1572/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-8.016 per-word bound, 258.8 perplexity estimate based on a held-out corpus of 415 documents with 18014 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 6, at document #28415/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 415 documents
+DEBUG:gensim.models.ldamodel:327/415 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #9 (0.100): 0.012*dollar + 0.009*gold + 0.008*market + 0.008*bank + 0.008*state + 0.008*russia + 0.006*presid + 0.006*unit + 0.006*currenc + 0.006*world
+INFO:gensim.models.ldamodel:topic #4 (0.100): 0.011*energi + 0.008*state + 0.007*govern + 0.005*nation + 0.005*bank + 0.005*intern + 0.005*presid + 0.004*plan + 0.004*fund + 0.004*unit
+INFO:gensim.models.ldamodel:topic #1 (0.100): 0.007*world + 0.007*tax + 0.006*presid + 0.006*iran + 0.006*econom + 0.005*polici + 0.004*inflat + 0.004*state + 0.004*econ + 0.003*increas
+INFO:gensim.models.ldamodel:topic #2 (0.100): 0.024*crude + 0.017*barrel + 0.015*market + 0.011*cent + 0.010*futur + 0.009*suppli + 0.008*compani + 0.008*gasolin + 0.007*newyork + 0.007*commod
+INFO:gensim.models.ldamodel:topic #5 (0.100): 0.016*trade + 0.011*export + 0.010*ga + 0.009*deficit + 0.009*import + 0.007*economi + 0.007*growth + 0.007*world + 0.007*state + 0.007*report
+INFO:gensim.models.ldamodel:topic diff=0.190154, rho=0.218218
+INFO:gensim.models.ldamodel:PROGRESS: pass 7, at document #2000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1619/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 7, at document #4000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1624/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 7, at document #6000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1621/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 7, at document #8000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1608/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 7, at document #10000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1651/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 7, at document #12000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1652/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 7, at document #14000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1622/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 7, at document #16000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1653/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 7, at document #18000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1619/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.880 per-word bound, 235.5 perplexity estimate based on a held-out corpus of 2000 documents with 75147 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 7, at document #20000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1647/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 7, at document #22000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1656/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 7, at document #24000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1649/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 7, at document #26000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1611/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 7, at document #28000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1635/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.899 per-word bound, 238.8 perplexity estimate based on a held-out corpus of 415 documents with 16836 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 7, at document #28415/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 415 documents
+DEBUG:gensim.models.ldamodel:340/415 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #4 (0.100): 0.011*energi + 0.008*state + 0.007*govern + 0.005*nation + 0.005*intern + 0.005*presid + 0.005*bank + 0.005*plan + 0.004*fund + 0.004*unit
+INFO:gensim.models.ldamodel:topic #0 (0.100): 0.013*bank + 0.011*rate + 0.007*reserv + 0.007*economi + 0.007*inflat + 0.007*central + 0.007*energi + 0.006*econom + 0.005*interest + 0.005*market
+INFO:gensim.models.ldamodel:topic #7 (0.100): 0.020*stock + 0.016*market + 0.012*rate + 0.010*dow + 0.009*bond + 0.009*investor + 0.009*index + 0.008*point + 0.008*trade + 0.007*industri
+INFO:gensim.models.ldamodel:topic #9 (0.100): 0.012*dollar + 0.010*gold + 0.008*russia + 0.008*state + 0.008*market + 0.008*bank + 0.007*currenc + 0.007*presid + 0.006*unit + 0.006*iraq
+INFO:gensim.models.ldamodel:topic #5 (0.100): 0.017*trade + 0.012*export + 0.011*ga + 0.010*deficit + 0.009*import + 0.008*growth + 0.008*economi + 0.007*world + 0.007*state + 0.007*unit
+INFO:gensim.models.ldamodel:topic diff=0.175894, rho=0.213201
+INFO:gensim.models.ldamodel:PROGRESS: pass 8, at document #2000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1690/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 8, at document #4000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1651/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 8, at document #6000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1687/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 8, at document #8000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1654/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 8, at document #10000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1690/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 8, at document #12000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1651/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 8, at document #14000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1677/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 8, at document #16000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1676/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 8, at document #18000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1662/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.887 per-word bound, 236.7 perplexity estimate based on a held-out corpus of 2000 documents with 74672 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 8, at document #20000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1642/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 8, at document #22000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1651/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 8, at document #24000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1667/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 8, at document #26000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1699/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 8, at document #28000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1695/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.800 per-word bound, 222.8 perplexity estimate based on a held-out corpus of 415 documents with 14580 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 8, at document #28415/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 415 documents
+DEBUG:gensim.models.ldamodel:350/415 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #8 (0.100): 0.016*energi + 0.008*gasolin + 0.008*increas + 0.007*bill + 0.006*hous + 0.006*cost + 0.006*senat + 0.006*ga + 0.005*consum + 0.005*presid
+INFO:gensim.models.ldamodel:topic #2 (0.100): 0.026*crude + 0.019*barrel + 0.016*market + 0.012*futur + 0.012*cent + 0.010*suppli + 0.009*gasolin + 0.008*commod + 0.008*newyork + 0.008*heat
+INFO:gensim.models.ldamodel:topic #0 (0.100): 0.015*bank + 0.013*rate + 0.008*reserv + 0.008*inflat + 0.008*economi + 0.007*central + 0.007*econom + 0.007*energi + 0.006*interest + 0.006*fed
+INFO:gensim.models.ldamodel:topic #5 (0.100): 0.018*trade + 0.012*export + 0.011*ga + 0.011*deficit + 0.010*import + 0.008*growth + 0.008*economi + 0.007*world + 0.007*state + 0.007*unit
+INFO:gensim.models.ldamodel:topic #3 (0.100): 0.026*opec + 0.013*product + 0.011*export + 0.011*meet + 0.011*cut + 0.009*minist + 0.009*petroleum + 0.008*produc + 0.008*organ + 0.008*barrel
+INFO:gensim.models.ldamodel:topic diff=0.162156, rho=0.208514
+INFO:gensim.models.ldamodel:PROGRESS: pass 9, at document #2000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1718/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 9, at document #4000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1704/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 9, at document #6000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1697/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 9, at document #8000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1699/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 9, at document #10000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1723/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 9, at document #12000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1686/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 9, at document #14000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1701/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 9, at document #16000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1707/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 9, at document #18000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1708/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.881 per-word bound, 235.7 perplexity estimate based on a held-out corpus of 2000 documents with 78678 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 9, at document #20000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1686/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 9, at document #22000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1696/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 9, at document #24000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1698/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 9, at document #26000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1700/2000 documents converged within 50 iterations
+INFO:gensim.models.ldamodel:PROGRESS: pass 9, at document #28000/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 2000 documents
+DEBUG:gensim.models.ldamodel:1690/2000 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.821 per-word bound, 226.1 perplexity estimate based on a held-out corpus of 415 documents with 15392 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 9, at document #28415/28415
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 415 documents
+DEBUG:gensim.models.ldamodel:339/415 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #0 (0.100): 0.016*bank + 0.014*rate + 0.009*reserv + 0.009*inflat + 0.008*economi + 0.008*central + 0.007*econom + 0.007*interest + 0.006*energi + 0.006*fed
+INFO:gensim.models.ldamodel:topic #7 (0.100): 0.022*stock + 0.017*market + 0.013*rate + 0.011*dow + 0.010*investor + 0.010*bond + 0.009*index + 0.009*point + 0.009*trade + 0.008*gain
+INFO:gensim.models.ldamodel:topic #2 (0.100): 0.027*crude + 0.019*barrel + 0.017*market + 0.013*futur + 0.012*cent + 0.010*suppli + 0.009*gasolin + 0.009*commod + 0.009*heat + 0.009*newyork
+INFO:gensim.models.ldamodel:topic #4 (0.100): 0.010*energi + 0.008*state + 0.006*govern + 0.005*nation + 0.005*intern + 0.005*presid + 0.005*plan + 0.005*bank + 0.004*fund + 0.004*unit
+INFO:gensim.models.ldamodel:topic #6 (0.100): 0.013*quarter + 0.012*report + 0.010*profit + 0.010*economi + 0.009*rate + 0.007*earn + 0.007*compani + 0.006*sale + 0.006*growth + 0.006*corpor
+INFO:gensim.models.ldamodel:topic diff=0.149161, rho=0.204124
+INFO:gensim.utils:saving LdaState object under ./oilPricesSince1970_topic10_stemmed2/lda_save.state, separately None
+INFO:gensim.utils:saving LdaModel object under ./oilPricesSince1970_topic10_stemmed2/lda_save, separately None
+INFO:gensim.utils:not storing attribute state
+INFO:gensim.utils:not storing attribute dispatcher
+INFO:gensim.models.ldamodel:topic #0 (0.100): 0.016*bank + 0.014*rate + 0.009*reserv + 0.009*inflat + 0.008*economi + 0.008*central + 0.007*econom + 0.007*interest + 0.006*energi + 0.006*fed
+INFO:gensim.models.ldamodel:topic #1 (0.100): 0.008*world + 0.007*tax + 0.007*presid + 0.007*iran + 0.007*econom + 0.005*polici + 0.004*econ + 0.004*state + 0.004*inflat + 0.004*plan
+INFO:gensim.models.ldamodel:topic #2 (0.100): 0.027*crude + 0.019*barrel + 0.017*market + 0.013*futur + 0.012*cent + 0.010*suppli + 0.009*gasolin + 0.009*commod + 0.009*heat + 0.009*newyork
+INFO:gensim.models.ldamodel:topic #3 (0.100): 0.028*opec + 0.014*product + 0.012*export + 0.011*meet + 0.011*cut + 0.010*petroleum + 0.010*minist + 0.009*organ + 0.009*barrel + 0.009*produc
+INFO:gensim.models.ldamodel:topic #4 (0.100): 0.010*energi + 0.008*state + 0.006*govern + 0.005*nation + 0.005*intern + 0.005*presid + 0.005*plan + 0.005*bank + 0.004*fund + 0.004*unit
+INFO:gensim.models.ldamodel:topic #5 (0.100): 0.019*trade + 0.012*export + 0.012*deficit + 0.011*ga + 0.010*import + 0.009*growth + 0.009*economi + 0.008*world + 0.008*econom + 0.008*state
+INFO:gensim.models.ldamodel:topic #6 (0.100): 0.013*quarter + 0.012*report + 0.010*profit + 0.010*economi + 0.009*rate + 0.007*earn + 0.007*compani + 0.006*sale + 0.006*growth + 0.006*corpor
+INFO:gensim.models.ldamodel:topic #7 (0.100): 0.022*stock + 0.017*market + 0.013*rate + 0.011*dow + 0.010*investor + 0.010*bond + 0.009*index + 0.009*point + 0.009*trade + 0.008*gain
+INFO:gensim.models.ldamodel:topic #8 (0.100): 0.017*energi + 0.008*gasolin + 0.008*increas + 0.007*bill + 0.007*hous + 0.007*cost + 0.006*senat + 0.006*ga + 0.005*presid + 0.005*consum
+INFO:gensim.models.ldamodel:topic #9 (0.100): 0.013*dollar + 0.011*gold + 0.009*russia + 0.008*state + 0.007*bank + 0.007*market + 0.007*currenc + 0.007*iraq + 0.007*unit + 0.007*presid

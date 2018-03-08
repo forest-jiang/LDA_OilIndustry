@@ -1,0 +1,138 @@
+INFO:gensim.models.ldamodel:using symmetric alpha at 0.1
+INFO:gensim.models.ldamodel:using serial LDA version on this node
+WARNING:gensim.models.ldamodel:input corpus stream has no len(); counting documents
+INFO:gensim.models.ldamodel:running batch LDA training, 10 topics, 10 passes over the supplied corpus of 795 documents, updating model once every 795 documents, evaluating perplexity every 795 documents, iterating 50x with a convergence threshold of 0.001000
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-10.534 per-word bound, 1482.7 perplexity estimate based on a held-out corpus of 795 documents with 1347565 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 0, at document #795/795
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 795 documents
+DEBUG:gensim.models.ldamodel:6/795 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #7 (0.100): 0.014*ga + 0.013*pressur + 0.007*fluid + 0.007*reservoir + 0.007*fig + 0.006*model + 0.006*product + 0.006*flow + 0.006*quot + 0.005*spe
+INFO:gensim.models.ldamodel:topic #9 (0.100): 0.010*ga + 0.009*pressur + 0.009*quot + 0.008*fluid + 0.007*water + 0.007*reservoir + 0.006*flow + 0.006*spe + 0.005*fig + 0.005*product
+INFO:gensim.models.ldamodel:topic #5 (0.100): 0.010*ga + 0.009*pressur + 0.008*water + 0.007*fig + 0.007*reservoir + 0.007*product + 0.006*quot + 0.005*permeabl + 0.005*data + 0.005*flow
+INFO:gensim.models.ldamodel:topic #8 (0.100): 0.012*pressur + 0.010*reservoir + 0.009*ga + 0.008*quot + 0.007*drill + 0.007*water + 0.006*product + 0.006*case + 0.006*spe + 0.006*amp
+INFO:gensim.models.ldamodel:topic #3 (0.100): 0.015*ga + 0.012*pressur + 0.011*fluid + 0.010*water + 0.008*pump + 0.008*reservoir + 0.006*flow + 0.006*product + 0.006*rate + 0.005*time
+INFO:gensim.models.ldamodel:topic diff=4.184983, rho=1.000000
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.524 per-word bound, 184.0 perplexity estimate based on a held-out corpus of 795 documents with 1347565 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 1, at document #795/795
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 795 documents
+DEBUG:gensim.models.ldamodel:84/795 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #9 (0.100): 0.010*ga + 0.009*polym + 0.009*quot + 0.008*fluid + 0.008*spe + 0.007*gel + 0.007*water + 0.006*pressur + 0.006*reservoir + 0.006*product
+INFO:gensim.models.ldamodel:topic #4 (0.100): 0.011*pressur + 0.011*fluid + 0.010*flow + 0.009*tube + 0.008*system + 0.006*product + 0.006*ga + 0.006*water + 0.006*case + 0.006*quot
+INFO:gensim.models.ldamodel:topic #2 (0.100): 0.031*ga + 0.019*pressur + 0.011*valv + 0.009*flow + 0.008*inject + 0.008*reservoir + 0.008*lift + 0.007*quot + 0.007*fluid + 0.006*fig
+INFO:gensim.models.ldamodel:topic #0 (0.100): 0.011*ga + 0.010*pressur + 0.010*water + 0.008*system + 0.007*tube + 0.006*fig + 0.006*file + 0.006*png + 0.006*case + 0.006*page
+INFO:gensim.models.ldamodel:topic #3 (0.100): 0.018*pump + 0.015*ga + 0.011*pressur + 0.011*fluid + 0.009*water + 0.007*flow + 0.007*product + 0.007*rate + 0.006*system + 0.005*produc
+INFO:gensim.models.ldamodel:topic diff=1.281326, rho=0.577350
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.305 per-word bound, 158.1 perplexity estimate based on a held-out corpus of 795 documents with 1347565 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 2, at document #795/795
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 795 documents
+DEBUG:gensim.models.ldamodel:234/795 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #3 (0.100): 0.023*pump + 0.014*ga + 0.011*pressur + 0.011*fluid + 0.008*system + 0.008*flow + 0.007*product + 0.007*rate + 0.007*water + 0.006*oper
+INFO:gensim.models.ldamodel:topic #5 (0.100): 0.009*bit + 0.009*ga + 0.009*pressur + 0.008*permeabl + 0.007*water + 0.007*system + 0.006*data + 0.006*fig + 0.006*drill + 0.006*phase
+INFO:gensim.models.ldamodel:topic #2 (0.100): 0.038*ga + 0.023*pressur + 0.015*valv + 0.010*inject + 0.010*lift + 0.009*flow + 0.007*fluid + 0.007*reservoir + 0.006*temperatur + 0.006*oper
+INFO:gensim.models.ldamodel:topic #8 (0.100): 0.013*drill + 0.013*amp + 0.013*log + 0.012*nbsp + 0.011*quot + 0.010*pressur + 0.008*measur + 0.008*reservoir + 0.008*format + 0.008*data
+INFO:gensim.models.ldamodel:topic #0 (0.100): 0.012*ga + 0.010*water + 0.010*pressur + 0.009*tube + 0.009*system + 0.007*pipe + 0.006*case + 0.006*file + 0.006*fig + 0.006*page
+INFO:gensim.models.ldamodel:topic diff=0.990287, rho=0.500000
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.213 per-word bound, 148.3 perplexity estimate based on a held-out corpus of 795 documents with 1347565 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 3, at document #795/795
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 795 documents
+DEBUG:gensim.models.ldamodel:257/795 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #6 (0.100): 0.023*reservoir + 0.013*ga + 0.010*water + 0.010*spe + 0.008*quot + 0.008*pressur + 0.008*fig + 0.008*model + 0.007*data + 0.007*permeabl
+INFO:gensim.models.ldamodel:topic #4 (0.100): 0.012*fluid + 0.012*pressur + 0.011*tube + 0.011*flow + 0.009*case + 0.008*system + 0.007*product + 0.007*plunger + 0.007*tool + 0.006*packer
+INFO:gensim.models.ldamodel:topic #8 (0.100): 0.015*log + 0.013*drill + 0.013*amp + 0.012*nbsp + 0.012*quot + 0.009*measur + 0.009*pressur + 0.008*format + 0.008*data + 0.008*reservoir
+INFO:gensim.models.ldamodel:topic #9 (0.100): 0.014*polym + 0.012*gel + 0.010*spe + 0.009*ga + 0.009*quot + 0.009*water + 0.008*treatment + 0.008*fluid + 0.008*product + 0.007*foam
+INFO:gensim.models.ldamodel:topic #3 (0.100): 0.026*pump + 0.014*ga + 0.011*pressur + 0.011*fluid + 0.010*system + 0.008*flow + 0.007*rate + 0.007*product + 0.007*oper + 0.006*rod
+INFO:gensim.models.ldamodel:topic diff=0.739207, rho=0.447214
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.169 per-word bound, 143.9 perplexity estimate based on a held-out corpus of 795 documents with 1347565 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 4, at document #795/795
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 795 documents
+DEBUG:gensim.models.ldamodel:263/795 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #8 (0.100): 0.016*log + 0.013*amp + 0.013*drill + 0.012*quot + 0.012*nbsp + 0.010*measur + 0.009*format + 0.009*data + 0.008*pressur + 0.008*mud
+INFO:gensim.models.ldamodel:topic #7 (0.100): 0.018*fractur + 0.011*ga + 0.011*pressur + 0.010*model + 0.009*quot + 0.007*hydrat + 0.007*data + 0.007*fig + 0.007*correl + 0.007*distribut
+INFO:gensim.models.ldamodel:topic #4 (0.100): 0.013*fluid + 0.012*pressur + 0.012*tube + 0.011*flow + 0.010*case + 0.008*system + 0.007*plunger + 0.007*product + 0.007*tool + 0.007*packer
+INFO:gensim.models.ldamodel:topic #6 (0.100): 0.023*reservoir + 0.013*ga + 0.010*water + 0.010*spe + 0.009*quot + 0.008*pressur + 0.008*model + 0.008*fig + 0.007*permeabl + 0.007*data
+INFO:gensim.models.ldamodel:topic #0 (0.100): 0.012*ga + 0.011*water + 0.011*tube + 0.010*pressur + 0.009*system + 0.008*pipe + 0.007*api + 0.007*case + 0.006*design + 0.006*requir
+INFO:gensim.models.ldamodel:topic diff=0.555394, rho=0.408248
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.144 per-word bound, 141.5 perplexity estimate based on a held-out corpus of 795 documents with 1347565 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 5, at document #795/795
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 795 documents
+DEBUG:gensim.models.ldamodel:275/795 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #6 (0.100): 0.024*reservoir + 0.014*ga + 0.010*spe + 0.010*water + 0.009*quot + 0.008*pressur + 0.008*model + 0.008*fig + 0.008*permeabl + 0.007*rtenotitl
+INFO:gensim.models.ldamodel:topic #9 (0.100): 0.016*polym + 0.014*gel + 0.011*spe + 0.010*water + 0.009*ga + 0.009*treatment + 0.009*quot + 0.008*foam + 0.008*product + 0.008*reservoir
+INFO:gensim.models.ldamodel:topic #0 (0.100): 0.013*ga + 0.011*water + 0.011*tube + 0.010*pressur + 0.009*system + 0.008*pipe + 0.008*api + 0.007*design + 0.007*case + 0.006*requir
+INFO:gensim.models.ldamodel:topic #8 (0.100): 0.018*log + 0.013*amp + 0.013*drill + 0.013*quot + 0.012*nbsp + 0.011*measur + 0.009*format + 0.009*data + 0.008*core + 0.008*mud
+INFO:gensim.models.ldamodel:topic #1 (0.100): 0.014*pressur + 0.012*flow + 0.012*water + 0.010*fluid + 0.009*phase + 0.008*temperatur + 0.008*test + 0.007*fig + 0.007*rtenotitl + 0.007*reservoir
+INFO:gensim.models.ldamodel:topic diff=0.422597, rho=0.377964
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.129 per-word bound, 139.9 perplexity estimate based on a held-out corpus of 795 documents with 1347565 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 6, at document #795/795
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 795 documents
+DEBUG:gensim.models.ldamodel:288/795 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #6 (0.100): 0.024*reservoir + 0.014*ga + 0.010*spe + 0.010*water + 0.009*quot + 0.008*model + 0.008*pressur + 0.008*permeabl + 0.008*fig + 0.007*rtenotitl
+INFO:gensim.models.ldamodel:topic #9 (0.100): 0.016*polym + 0.014*gel + 0.012*spe + 0.010*water + 0.010*treatment + 0.009*ga + 0.009*quot + 0.009*foam + 0.008*product + 0.008*reservoir
+INFO:gensim.models.ldamodel:topic #0 (0.100): 0.013*ga + 0.012*water + 0.011*tube + 0.010*pressur + 0.010*system + 0.008*pipe + 0.008*api + 0.007*design + 0.006*case + 0.006*requir
+INFO:gensim.models.ldamodel:topic #2 (0.100): 0.053*ga + 0.033*pressur + 0.025*valv + 0.018*lift + 0.016*inject + 0.011*flow + 0.009*oper + 0.008*product + 0.008*depth + 0.008*fluid
+INFO:gensim.models.ldamodel:topic #8 (0.100): 0.019*log + 0.013*amp + 0.013*quot + 0.012*drill + 0.012*nbsp + 0.011*measur + 0.009*data + 0.009*format + 0.009*core + 0.008*poros
+INFO:gensim.models.ldamodel:topic diff=0.325916, rho=0.353553
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.118 per-word bound, 138.9 perplexity estimate based on a held-out corpus of 795 documents with 1347565 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 7, at document #795/795
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 795 documents
+DEBUG:gensim.models.ldamodel:298/795 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #4 (0.100): 0.015*fluid + 0.013*pressur + 0.011*case + 0.011*tube + 0.011*flow + 0.008*plunger + 0.008*product + 0.007*tool + 0.007*complet + 0.007*packer
+INFO:gensim.models.ldamodel:topic #0 (0.100): 0.013*ga + 0.012*water + 0.011*tube + 0.010*pressur + 0.010*system + 0.008*pipe + 0.008*api + 0.007*design + 0.006*process + 0.006*requir
+INFO:gensim.models.ldamodel:topic #5 (0.100): 0.019*bit + 0.011*sampl + 0.010*drill + 0.008*ga + 0.008*system + 0.008*reserv + 0.007*pressur + 0.007*permeabl + 0.007*rel + 0.006*resourc
+INFO:gensim.models.ldamodel:topic #8 (0.100): 0.020*log + 0.013*amp + 0.013*quot + 0.012*nbsp + 0.012*measur + 0.011*drill + 0.010*data + 0.009*format + 0.009*poros + 0.009*core
+INFO:gensim.models.ldamodel:topic #3 (0.100): 0.030*pump + 0.012*ga + 0.011*system + 0.010*fluid + 0.010*pressur + 0.010*rod + 0.009*flow + 0.007*rate + 0.007*oper + 0.007*separ
+INFO:gensim.models.ldamodel:topic diff=0.254705, rho=0.333333
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.110 per-word bound, 138.1 perplexity estimate based on a held-out corpus of 795 documents with 1347565 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 8, at document #795/795
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 795 documents
+DEBUG:gensim.models.ldamodel:305/795 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #6 (0.100): 0.025*reservoir + 0.014*ga + 0.010*spe + 0.010*water + 0.009*quot + 0.008*permeabl + 0.008*model + 0.008*pressur + 0.008*fig + 0.007*rtenotitl
+INFO:gensim.models.ldamodel:topic #4 (0.100): 0.015*fluid + 0.013*pressur + 0.012*case + 0.011*tube + 0.011*flow + 0.008*drill + 0.008*plunger + 0.007*product + 0.007*complet + 0.007*tool
+INFO:gensim.models.ldamodel:topic #7 (0.100): 0.024*fractur + 0.012*ga + 0.010*pressur + 0.010*model + 0.010*quot + 0.009*data + 0.008*hydrat + 0.008*correl + 0.007*fig + 0.007*distribut
+INFO:gensim.models.ldamodel:topic #1 (0.100): 0.014*pressur + 0.013*flow + 0.012*water + 0.010*phase + 0.010*fluid + 0.010*temperatur + 0.008*test + 0.008*rtenotitl + 0.007*fig + 0.007*reservoir
+INFO:gensim.models.ldamodel:topic #5 (0.100): 0.020*bit + 0.012*sampl + 0.011*drill + 0.008*ga + 0.008*system + 0.008*reserv + 0.007*pressur + 0.007*resourc + 0.007*rel + 0.007*permeabl
+INFO:gensim.models.ldamodel:topic diff=0.201734, rho=0.316228
+DEBUG:gensim.models.ldamodel:bound: at document #0
+INFO:gensim.models.ldamodel:-7.104 per-word bound, 137.6 perplexity estimate based on a held-out corpus of 795 documents with 1347565 words
+INFO:gensim.models.ldamodel:PROGRESS: pass 9, at document #795/795
+DEBUG:gensim.models.ldamodel:performing inference on a chunk of 795 documents
+DEBUG:gensim.models.ldamodel:291/795 documents converged within 50 iterations
+DEBUG:gensim.models.ldamodel:updating topics
+INFO:gensim.models.ldamodel:topic #8 (0.100): 0.021*log + 0.013*quot + 0.013*amp + 0.012*measur + 0.012*nbsp + 0.010*data + 0.010*drill + 0.010*poros + 0.009*format + 0.009*core
+INFO:gensim.models.ldamodel:topic #2 (0.100): 0.060*ga + 0.037*pressur + 0.029*valv + 0.022*lift + 0.019*inject + 0.012*flow + 0.010*oper + 0.009*depth + 0.009*product + 0.008*nmr
+INFO:gensim.models.ldamodel:topic #0 (0.100): 0.013*ga + 0.012*water + 0.011*tube + 0.010*system + 0.010*pressur + 0.008*pipe + 0.008*api + 0.008*design + 0.007*process + 0.006*requir
+INFO:gensim.models.ldamodel:topic #7 (0.100): 0.025*fractur + 0.012*ga + 0.010*quot + 0.010*pressur + 0.010*model + 0.009*data + 0.008*hydrat + 0.008*correl + 0.007*fig + 0.007*distribut
+INFO:gensim.models.ldamodel:topic #6 (0.100): 0.025*reservoir + 0.015*ga + 0.010*spe + 0.010*water + 0.009*quot + 0.008*permeabl + 0.008*model + 0.008*pressur + 0.008*fig + 0.007*rtenotitl
+INFO:gensim.models.ldamodel:topic diff=0.161679, rho=0.301511
+INFO:gensim.utils:saving LdaState object under ./petrowiki765_lower/lda_save.state, separately None
+INFO:gensim.utils:saving LdaModel object under ./petrowiki765_lower/lda_save, separately None
+INFO:gensim.utils:not storing attribute state
+INFO:gensim.utils:not storing attribute dispatcher
+INFO:gensim.models.ldamodel:topic #0 (0.100): 0.013*ga + 0.012*water + 0.011*tube + 0.010*system + 0.010*pressur + 0.008*pipe + 0.008*api + 0.008*design + 0.007*process + 0.006*requir
+INFO:gensim.models.ldamodel:topic #1 (0.100): 0.014*pressur + 0.013*flow + 0.012*water + 0.010*phase + 0.010*temperatur + 0.010*fluid + 0.008*test + 0.008*rtenotitl + 0.007*fig + 0.006*reservoir
+INFO:gensim.models.ldamodel:topic #2 (0.100): 0.060*ga + 0.037*pressur + 0.029*valv + 0.022*lift + 0.019*inject + 0.012*flow + 0.010*oper + 0.009*depth + 0.009*product + 0.008*nmr
+INFO:gensim.models.ldamodel:topic #3 (0.100): 0.030*pump + 0.012*ga + 0.012*system + 0.011*rod + 0.010*fluid + 0.010*pressur + 0.009*flow + 0.007*oper + 0.007*rate + 0.007*separ
+INFO:gensim.models.ldamodel:topic #4 (0.100): 0.015*fluid + 0.014*pressur + 0.012*case + 0.011*tube + 0.011*flow + 0.009*drill + 0.008*complet + 0.008*plunger + 0.007*product + 0.007*tool
+INFO:gensim.models.ldamodel:topic #5 (0.100): 0.020*bit + 0.012*sampl + 0.012*drill + 0.008*system + 0.008*ga + 0.008*reserv + 0.007*resourc + 0.007*pressur + 0.006*rel + 0.006*project
+INFO:gensim.models.ldamodel:topic #6 (0.100): 0.025*reservoir + 0.015*ga + 0.010*spe + 0.010*water + 0.009*quot + 0.008*permeabl + 0.008*model + 0.008*pressur + 0.008*fig + 0.007*rtenotitl
+INFO:gensim.models.ldamodel:topic #7 (0.100): 0.025*fractur + 0.012*ga + 0.010*quot + 0.010*pressur + 0.010*model + 0.009*data + 0.008*hydrat + 0.008*correl + 0.007*fig + 0.007*distribut
+INFO:gensim.models.ldamodel:topic #8 (0.100): 0.021*log + 0.013*quot + 0.013*amp + 0.012*measur + 0.012*nbsp + 0.010*data + 0.010*drill + 0.010*poros + 0.009*format + 0.009*core
+INFO:gensim.models.ldamodel:topic #9 (0.100): 0.017*polym + 0.015*gel + 0.013*spe + 0.011*water + 0.010*treatment + 0.009*ga + 0.009*foam + 0.009*quot + 0.008*product + 0.008*reservoir
